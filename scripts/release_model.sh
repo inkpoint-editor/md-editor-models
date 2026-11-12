@@ -36,7 +36,7 @@ if [ "$ASSET_KIND" = "adapter" ] && [ -z "$TASK" ]; then
   echo "❌ --asset adapter 必须提供 --task (gec|completion|distill|style-analysis)"; exit 1
 fi
 
-REPO="wmasfoe/md-editor-models"
+REPO="inkpoint-editor/md-editor-models"
 
 # 自动检测 Python 执行器
 if command -v uv &> /dev/null && [ -d ".venv" ]; then

@@ -1,7 +1,7 @@
 # RFC-002: md-editor 端侧专属小模型 (SLM) 客户端对接与实施终极规范
 
 > **接收方**：[`wmasfoe/md-editor`](https://github.com/wmasfoe/md-editor) 桌面端 App 开发 Agent  
-> **发送方**：[`wmasfoe/md-editor-models`](https://github.com/wmasfoe/md-editor-models) 模型微调工程 Agent  
+> **发送方**：[`inkpoint-editor/md-editor-models`](https://github.com/inkpoint-editor/md-editor-models) 模型微调工程 Agent  
 > **技术架构**：Tauri v2 (Rust) + `llama-server` 本地进程通信  
 > **当前状态**：Approved Final Specification（含 `<|task_gec_mixed|>`、滚动 Refine `<|task_distill|>`、ChatML `<|task_completion|>` 与 Stop Tokens 规范表）  
 
@@ -216,7 +216,7 @@ $$\text{格式：} [[start, end, "\text{待替换原文}", "\text{替换后文�
       "filename": "qwen2.5-0.5b-editor-v1.0.0-Q4_K_M.gguf",
       "sizeBytes": 251658240,
       "sha256": "8f9b2c3d4e5f...",
-      "downloadUrl": "https://github.com/wmasfoe/md-editor-models/releases/download/v1.0.0/qwen2.5-0.5b-editor-v1.0.0-Q4_K_M.gguf",
+      "downloadUrl": "https://github.com/inkpoint-editor/md-editor-models/releases/download/v1.0.0/qwen2.5-0.5b-editor-v1.0.0-Q4_K_M.gguf",
       "recommended": true
     },
     {
@@ -228,7 +228,7 @@ $$\text{格式：} [[start, end, "\text{待替换原文}", "\text{替换后文�
       "filename": "qwen2.5-1.5b-editor-v1.0.0-Q4_K_M.gguf",
       "sizeBytes": 1027604480,
       "sha256": "4a5e6f7b8c9d...",
-      "downloadUrl": "https://github.com/wmasfoe/md-editor-models/releases/download/v1.0.0/qwen2.5-1.5b-editor-v1.0.0-Q4_K_M.gguf",
+      "downloadUrl": "https://github.com/inkpoint-editor/md-editor-models/releases/download/v1.0.0/qwen2.5-1.5b-editor-v1.0.0-Q4_K_M.gguf",
       "recommended": false
     }
   ]

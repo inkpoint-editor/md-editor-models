@@ -1,6 +1,6 @@
 # md-editor-models 文档中心 (Documentation Portal)
 
-欢迎来到 [`wmasfoe/md-editor-models`](https://github.com/wmasfoe/md-editor-models) 核心技术文档中心。
+欢迎来到 [`inkpoint-editor/md-editor-models`](https://github.com/inkpoint-editor/md-editor-models) 核心技术文档中心。
 
 本仓库专为 [`md-editor`](https://github.com/wmasfoe/md-editor) 及现代桌面 Markdown 编辑器研发**端侧原生、首字极速响应 (<30ms)、低内存占用 (<300MB)、零云端依赖**的垂直小语言模型 (SLM)。
 

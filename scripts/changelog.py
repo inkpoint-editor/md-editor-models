@@ -18,7 +18,7 @@ SEMVER_REGEX = re.compile(r"^\d+\.\d+\.\d+$")
 DATE_REGEX = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 VALID_IMPACTS = {"major", "normal"}
 VALID_ITEM_TYPES = {"feat", "perf", "fix", "refactor", "breaking", "other"}
-GITHUB_REPO = "wmasfoe/md-editor-models"
+GITHUB_REPO = "inkpoint-editor/md-editor-models"
 
 SECTION_EMOJI_MAP = [
     (["下载", "流量", "省流量", "更新"], "📦 "),

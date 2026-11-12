@@ -4,7 +4,7 @@
 
 ---
 
-## 1.4.0 - 2026-10-25 ([#3](https://github.com/wmasfoe/md-editor-models/pull/3))
+## 1.4.0 - 2026-10-25 ([#3](https://github.com/inkpoint-editor/md-editor-models/pull/3))
 
 全面落地 RFC-004 App Harness 架构与双档位解耦：Standard 档引入 Google Gemma 4 E2B 免微调高精度基座，Lite 档采用超轻量防过拟合微调。
 
@@ -16,7 +16,7 @@
 
 ---
 
-## 1.3.1 - 2026-09-08 ([#2](https://github.com/wmasfoe/md-editor-models/pull/2))
+## 1.3.1 - 2026-09-08 ([#2](https://github.com/inkpoint-editor/md-editor-models/pull/2))
 
 全面重构长文档语义提炼与上下文理解能力，接入 100% 真实学术与百科长文语料，为行内续写提供高密度专有名词与主旨提示。
 
@@ -29,7 +29,7 @@
 
 ---
 
-## 1.3.0 - 2026-09-03 ([#1](https://github.com/wmasfoe/md-editor-models/pull/1))
+## 1.3.0 - 2026-09-03 ([#1](https://github.com/inkpoint-editor/md-editor-models/pull/1))
 
 本次更新是一次重要升级：换用了更聪明的基座，并全面重构了更新机制与纠错算法。
 
@@ -49,7 +49,7 @@
 
 ---
 
-## 1.2.0 - 2026-09-03 ([#1](https://github.com/wmasfoe/md-editor-models/pull/1))
+## 1.2.0 - 2026-09-03 ([#1](https://github.com/inkpoint-editor/md-editor-models/pull/1))
 
 开始引入 Qwen3 架构，全面改用官方高精度文件并重构配置清单设计。
 

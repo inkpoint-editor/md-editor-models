@@ -1,6 +1,6 @@
 # RFC-003: v1.2.0 端侧小模型全矩阵增强与交接落地规范文档
 > **文档版本**：v1.2.0-Draft  
-> **所属仓库**：[`wmasfoe/md-editor-models`](https://github.com/wmasfoe/md-editor-models)  
+> **所属仓库**：[`inkpoint-editor/md-editor-models`](https://github.com/inkpoint-editor/md-editor-models)  
 > **面向对象**：后续接力 Agent、算法工程师、客户端（`md-editor`）开发团队  
 > **创建时间**：2026-09-02  
 
