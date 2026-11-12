@@ -4,7 +4,7 @@
 
 ---
 
-## 1.4.0 - 2026-10-25 ([#3](https://github.com/inkpoint-editor/md-editor-models/pull/3))
+## 1.4.0 - 2026-10-25
 
 全面落地 RFC-004 App Harness 架构与双档位解耦：Standard 档引入 Google Gemma 4 E2B 免微调高精度基座，Lite 档采用超轻量防过拟合微调。
 
