@@ -31,7 +31,7 @@
 
 ```bash
 # 1. 克隆代码仓库
-git clone https://github.com/wmasfoe/md-editor-models.git
+git clone https://github.com/inkpoint-editor/md-editor-models.git
 cd md-editor-models
 
 # 2. 安装 uv (如未安装)
@@ -59,7 +59,7 @@ uv run python scripts/build_dataset.py
 
 ### 5.1 在 Google Colab (L4 GPU / T4 GPU) 上一键运行
 直接打开 Notebook 运行即可：
-👉 **[Open in Colab](https://colab.research.google.com/github/wmasfoe/md-editor-models/blob/master/notebooks/train_and_release_t4.ipynb)**
+👉 **[Open in Colab](https://colab.research.google.com/github/inkpoint-editor/md-editor-models/blob/master/notebooks/train_and_release_t4.ipynb)**
 
 ### 5.2 在任意 GPU 服务器命令行上运行
 ```bash

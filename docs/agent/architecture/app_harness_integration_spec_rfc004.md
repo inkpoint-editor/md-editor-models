@@ -1,7 +1,7 @@
 # RFC-004: 客户端 App Harness 编排与双档位 (Gemma 4 Standard + Qwen 3 Lite) 协同规范
 
 > **接收方**：[`wmasfoe/md-editor`](https://github.com/wmasfoe/md-editor) 客户端开发 Agent (Tauri v2 + Rust + React/CodeMirror)  
-> **发送方**：[`wmasfoe/md-editor-models`](https://github.com/wmasfoe/md-editor-models) 模型算法与微调工程 Agent  
+> **发送方**：[`inkpoint-editor/md-editor-models`](https://github.com/inkpoint-editor/md-editor-models) 模型算法与微调工程 Agent  
 > **当前状态**：Approved Specification (v1.4.0 Target)  
 > **核心原则**：**客户端 App Harness 负责意图引导与 GBNF 物理约束，端侧小模型专注于语义校对，彻底消除过拟合**。
 
@@ -132,7 +132,7 @@ ws ::= [ \t\n\r]*
         "quant": "Q8_0",
         "sizeBytes": 639000000,
         "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-        "downloadUrl": "https://github.com/wmasfoe/md-editor-models/releases/download/v1.4.0/lite-base-qwen3-0.6b-v1.4.0-Q8_0.gguf"
+        "downloadUrl": "https://github.com/inkpoint-editor/md-editor-models/releases/download/v1.4.0/lite-base-qwen3-0.6b-v1.4.0-Q8_0.gguf"
       },
       "capabilities": {
         "gec": {
@@ -140,7 +140,7 @@ ws ::= [ \t\n\r]*
           "filename": "lite-gec-qwen3-0.6b-v1.4.0-lora-f16.gguf",
           "sizeBytes": 28000000,
           "sha256": "cbf529a4d5fca1687a31d0f6644d6f14c4e36124c6b017414c6cf4c1cc35b214",
-          "downloadUrl": "https://github.com/wmasfoe/md-editor-models/releases/download/v1.4.0/lite-gec-qwen3-0.6b-v1.4.0-lora-f16.gguf",
+          "downloadUrl": "https://github.com/inkpoint-editor/md-editor-models/releases/download/v1.4.0/lite-gec-qwen3-0.6b-v1.4.0-lora-f16.gguf",
           "promptProtocol": "harness-chatml-v1",
           "grammar": "rfc002_tuple"
         }
@@ -158,7 +158,7 @@ ws ::= [ \t\n\r]*
         "quant": "Q4_K_M",
         "sizeBytes": 1680000000,
         "sha256": "4b227777d4dd1fc61c6f884f48641d02b4d121d3fd328cb08b5531fcacdabf8a",
-        "downloadUrl": "https://github.com/wmasfoe/md-editor-models/releases/download/v1.4.0/standard-base-gemma4-e2b-v1.4.0-Q4_K_M.gguf"
+        "downloadUrl": "https://github.com/inkpoint-editor/md-editor-models/releases/download/v1.4.0/standard-base-gemma4-e2b-v1.4.0-Q4_K_M.gguf"
       },
       "capabilities": {
         "gec": {

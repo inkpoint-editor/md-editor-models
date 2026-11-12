@@ -2,7 +2,9 @@
 
 > 基于 **RFC-002** 规范的端侧 Markdown 写作、多语种纠错、排版规范与极速 FIM 补全小模型矩阵。
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/wmasfoe/md-editor-models/blob/master/notebooks/train_and_release_t4.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/inkpoint-editor/md-editor-models/blob/master/notebooks/train_and_release_t4.ipynb)
+
+> **仓库迁移**：本仓库现位于 [inkpoint-editor/md-editor-models](https://github.com/inkpoint-editor/md-editor-models)。旧的 `wmasfoe/md-editor-models` 地址会自动重定向到新地址。
 
 本仓库专注于 **Qwen2.5 (0.5B / 1.5B)** 的多任务 SFT 微调、格式保真与 GGUF 量化。产出的模型专为端侧极速响应打造（首字延迟 **<30ms**，量化体积 **<250MB**，内存占用 **<300MB**），可直接接入 [md-editor](https://github.com/wmasfoe/md-editor) 或任何基于 `llama-server` 的端侧应用。
 
@@ -54,7 +56,7 @@ md-editor-models/
 
 ```bash
 # 1. 克隆并安装依赖
-git clone https://github.com/wmasfoe/md-editor-models.git
+git clone https://github.com/inkpoint-editor/md-editor-models.git
 cd md-editor-models && uv sync
 
 # 2. 一键训练、量化并发布到 GitHub Release
